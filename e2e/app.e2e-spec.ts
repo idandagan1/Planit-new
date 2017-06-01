@@ -7,8 +7,8 @@ describe('planit App', function() {
     page = new PlanitPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying view works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('view works!');
   });
 });
